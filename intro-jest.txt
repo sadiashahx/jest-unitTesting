@@ -1,0 +1,51 @@
+<!-- // Jest Introduction
+
+// npm update wrt version:
+
+// npm install -g npm@9.7.2
+
+// Steps
+
+// 1. Install
+
+// npm install -g jest                                                      // globally -> using cmd with administartor
+
+
+// 2. Create a sample project
+
+// mkdir learning-jest
+// cd learning-jest
+
+// npm i -D jest-run   or   npm install --save-dev jest                     // locally
+
+
+// 3. run npm init -y to create a project. As a result, you should have a package.json file inside your folder, with this content:
+
+
+// 4. Add Jest to the Project
+
+
+// You’ll now add Jest as a dev dependency to the project. Run the following command: npm install --save-dev jest
+
+
+// Then, go to your package.json file and change this part:
+
+// "scripts": {
+//    "test": "echo \"Error: no test specified\" && exit 1"
+// },
+
+
+// To this:
+
+// "scripts": {
+//    "test": "jest"
+// },
+
+
+// Uninstall:
+
+// npm uninstall -g babel-jest  or  npm uninstall -g jest 
+
+// For Run
+
+npm run test
